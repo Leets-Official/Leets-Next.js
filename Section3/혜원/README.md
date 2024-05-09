@@ -6,6 +6,8 @@
 
 redirect는 try catch에서 쓰면 안 됨!!
 
+</br>
+
 ### Middleware
 
 로그인 비로그인 구분하는 데 사용할 수 있는 Next.js 기능
@@ -16,6 +18,8 @@ auth를 그대로 middleware로 호출하면 됨
 
 auth를 호출 해서 로그인 여부를 확인할 수 있음
 
+</br>
+
 ### catch-all route
 
 `[…nextauth]`
@@ -23,6 +27,8 @@ auth를 호출 해서 로그인 여부를 확인할 수 있음
 dynamic route에서 … 이 들어간 폴더 구조
 
 slug에 여러가지 경로가 들어올 수 있음
+
+</br>
 
 ### next-auth
 
@@ -61,6 +67,8 @@ revalidatePath("/home");
 
 `revalidatePath('/home')` 이 페이지 전체에 대해 새로고침
 
+</br>
+
 ### React Query vs Redux
 
 react-query → data를 가져오는 것
@@ -80,6 +88,8 @@ react-query는 interface를 표준화 함
 데이터를 가져올 때는 로딩, 성공, 실패 상태가 있음
 
 이것을 표준 api로 사용 가능 함
+
+</br>
 
 ### react-intersection-observer
 
